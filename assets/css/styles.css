@@ -159,7 +159,7 @@ body, html {
   cursor: pointer;
 }
 
-.navbar-container {
+.navbar{
   font-size: 13px;
   background-color: black;
 }
