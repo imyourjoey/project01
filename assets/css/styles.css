@@ -573,6 +573,10 @@ body, html {
   border: 2px solid var(--primary-color);
 }
 
+.form-message{
+  color: white !important;
+}
+
 .modal-body input.reactive:valid {
   border-color: var(--valid-color);
 }
