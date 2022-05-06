@@ -159,7 +159,7 @@ body, html {
   cursor: pointer;
 }
 
-.navbar{
+.navbar {
   font-size: 13px;
   background-color: black;
 }
@@ -656,8 +656,9 @@ body, html {
   }
 
   .college h2 {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     padding-left: 0;
+    text-shadow: 10px 10px 10px black;
   }
 
   .col-6 {
@@ -696,6 +697,7 @@ body, html {
     margin-left: 8%;
   }
 
+
   .campus .col-6 {
     padding-right: 0;
     padding-left: 0;
@@ -732,20 +734,24 @@ body, html {
     top: 50px;
     right: 40px;
   }
-  .accordion-title{
+
+  .accordion-title {
     font-size: 2.5rem;
-    margin-bottom: 2rem !important;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
   }
 
-  #programs.accordion.p-5{
-    padding: 25px!important;
+  #programs.accordion.p-5 {
+    padding: 25px !important;
   }
 
-  .row.row-campus h1{
+  .row.row-campus h1 {
     font-size: 2.5rem;
     margin-bottom: none;
     padding-bottom: 0;
   }
 
-
+  .card {
+    max-height: 30rem;
+  }
 }
